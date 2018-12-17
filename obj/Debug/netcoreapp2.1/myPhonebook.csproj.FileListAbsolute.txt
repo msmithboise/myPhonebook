@@ -9,3 +9,14 @@
 /Users/msmith/source/projects/myPhonebook/obj/Debug/netcoreapp2.1/myPhonebook.AssemblyInfo.cs
 /Users/msmith/source/projects/myPhonebook/obj/Debug/netcoreapp2.1/myPhonebook.dll
 /Users/msmith/source/projects/myPhonebook/obj/Debug/netcoreapp2.1/myPhonebook.pdb
+C:\Users\mssmith\source\projects\myPhonebook\bin\Debug\netcoreapp2.1\myPhonebook.deps.json
+C:\Users\mssmith\source\projects\myPhonebook\bin\Debug\netcoreapp2.1\myPhonebook.runtimeconfig.json
+C:\Users\mssmith\source\projects\myPhonebook\bin\Debug\netcoreapp2.1\myPhonebook.runtimeconfig.dev.json
+C:\Users\mssmith\source\projects\myPhonebook\bin\Debug\netcoreapp2.1\myPhonebook.dll
+C:\Users\mssmith\source\projects\myPhonebook\bin\Debug\netcoreapp2.1\myPhonebook.pdb
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.csprojAssemblyReference.cache
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.csproj.CoreCompileInputs.cache
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.AssemblyInfoInputs.cache
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.AssemblyInfo.cs
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.dll
+C:\Users\mssmith\source\projects\myPhonebook\obj\Debug\netcoreapp2.1\myPhonebook.pdb
