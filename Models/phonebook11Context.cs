@@ -6,6 +6,8 @@ namespace myPhonebook.Models
 {
     public partial class phonebook11Context : DbContext
     {
+        public virtual DbSet<Contacts> Contacts { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -16,6 +18,33 @@ namespace myPhonebook.Models
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {}
+        {
+            modelBuilder.Entity<Contacts>(entity =>
+            {
+                entity.HasKey(e => e.ContactId);
+
+                entity.ToTable("contacts");
+
+                entity.Property(e => e.ContactId)
+                    .HasColumnName("contact_id")
+                    .HasColumnType("int(11)");
+
+                entity.Property(e => e.Address)
+                    .HasColumnName("address")
+                    .HasMaxLength(50);
+
+                entity.Property(e => e.Email)
+                    .HasColumnName("email")
+                    .HasMaxLength(20);
+
+                entity.Property(e => e.Name)
+                    .HasColumnName("name")
+                    .HasMaxLength(20);
+
+                entity.Property(e => e.Number)
+                    .HasColumnName("number")
+                    .HasColumnType("int(11)");
+            });
+        }
     }
 }
