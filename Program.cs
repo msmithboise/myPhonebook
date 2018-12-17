@@ -1,6 +1,7 @@
 ﻿using System;
+using MyPhonebook.Models;
 
-namespace myPhonebook
+namespace MyPhonebook
 {
     class Program
     {

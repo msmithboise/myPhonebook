@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace myPhonebook.Models
+namespace MyPhonebook.Models
 {
     public partial class Contacts
     {

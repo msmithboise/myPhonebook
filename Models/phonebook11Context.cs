@@ -2,9 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace myPhonebook.Models
+
+namespace MyPhonebook.Models
 {
-    public partial class phonebook11Context : DbContext
+    public partial class Phonebook11Context : DbContext
     {
         public virtual DbSet<Contacts> Contacts { get; set; }
 
