@@ -13,6 +13,9 @@ namespace MyPhonebook
             foreach (var c in contacts)
             {
                 System.Console.WriteLine($"Name:{c.Name}");
+                System.Console.WriteLine($"Phone Number:{c.Number}");
+                System.Console.WriteLine($"Address:{c.Address}");
+                System.Console.WriteLine($"Email:{c.Email}");
             }
         }
     }
